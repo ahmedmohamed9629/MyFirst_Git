@@ -12,5 +12,7 @@ jops:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 'Printing folder contents'
+      - name: 'Printing folder '
         run: ls
+
+      - uses: actions/checkout@v3
