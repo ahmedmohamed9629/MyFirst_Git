@@ -1,3 +1,4 @@
+FROM alpine
 FROM openjdk
 
 WORKDIR /application
